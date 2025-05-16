@@ -1,0 +1,71 @@
+
+<div class="container">
+    <span class="opblock-summary-path">Set Chapter Test</span>
+    <div class="input-container">
+    <input type="text" [(ngModel)]="name" placeholder="Name">
+    <textarea [(ngModel)]="description" placeholder="Description"></textarea>
+    <textarea [(ngModel)]="instruction" placeholder="Instruction"></textarea>
+    <input type="string" [(ngModel)]="topicId" placeholder="Topic ID">
+    <button (click)="setChapterTest()">Set Chapter Test</button>
+  </div>
+  </div>
+
+  <div class="container">
+    <span class="opblock-summary-path">Set Chapter Test Question</span>
+    <div class="input-container">
+    <input type="text" [(ngModel)]="question" placeholder="Question">
+    <input type="text" [(ngModel)]="questionImage" placeholder="Question Image URL">
+    <input type="text" [(ngModel)]="solution"  placeholder="Solution">
+    <input type="text" [(ngModel)]="solutionImage" placeholder="Solution Image URL">
+    <input type="number" [(ngModel)]="negativeMark" placeholder="Negative Mark">
+    <input type="number" [(ngModel)]="positiveMark" placeholder="Positive Mark">
+    <input type="number" [(ngModel)]="chapterTestId" placeholder="Chapter Test ID">
+    <div *ngFor="let option of options; let i = index;">
+      <input type="text" [(ngModel)]="options[i].option" placeholder="Option">
+      <input type="checkbox" [(ngModel)]="options[i].isCorrect"> Is Correct
+      <input type="text" [(ngModel)]="options[i].optionImage" placeholder="Option Image URL">
+   
+    </div>
+    
+    
+    <button (click)="setChapterTestQuestion()">Set Chapter Test Question</button>
+  </div>
+  </div>
+  
+  
+  <div class="container">
+    <span class="opblock-summary-path">Fetch Test</span>
+    <div class="input-container">
+    <input type="text" [(ngModel)]="testType" placeholder="testType">
+    <textarea [(ngModel)]="testName" placeholder="testName"></textarea>
+    <button (click)="fetchTest()">Fetch Test</button>
+  </div>
+  </div>
+  <div class="container">
+    <span class="opblock-summary-path">Fetch Topic Lists</span>
+    <div class="input-container">
+    
+<table>
+<thead>
+<tr>
+  <th>ID</th>
+  <th>Test Name</th>
+  <th>Topic Name</th>
+  <th>Subject Name</th>
+  <th>Subcourse Name</th>
+  <th>Course Name</th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let test of tests">
+  <td>{{ test.id }}</td>
+  <td>{{ test.name }}</td>
+  <td>{{ test.topic.name }}</td>
+  <td>{{ test.topic.subject.name }}</td>
+  <td>{{ test.topic.subject.subCourses[0].name }}</td>
+  <td>{{ test.topic.subject.subCourses[0].course.name }}</td>
+</tr>
+</tbody>
+</table>
+</div>
+  </div>

@@ -1,0 +1,84 @@
+<!-- 
+<label for="topicId">Topic Id:</label>
+<input type="number" id="usernote" [(ngModel)]="fetchUsetNote">
+<button (click)="fetchUserNote()">Fetch Note</button>
+<table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Video Title</th>
+        <th>VdoCipherId</th>
+        <th>Video Length</th>
+      
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let video of videos">
+        <td>{{ video.id }}</td>
+        <td>{{ video.title }}</td>
+        <td>{{ video.vdoCipherId }}</td>
+        <td>{{ video.totalVideoDuration }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+<!-- Set User Note -->
+<div class="container">
+    <span class="opblock-summary-path">Set User Note:</span>
+    <div class="input-container">
+<div>
+    <label for="title">Title:</label>
+    <input type="text" id="title" [(ngModel)]="title">
+  </div>
+  <div>
+    <label for="description">Description:</label>
+    <textarea id="description" [(ngModel)]="description"></textarea>
+  </div>
+  <div>
+    <label for="topicId">Topic ID:</label>
+    <input type="text" id="topicId" [(ngModel)]="topicId">
+  </div>
+  <div>
+    <label for="studentId">Student ID:</label>
+    <input type="string" id="studentId" [(ngModel)]="studentId">
+  </div>
+  <div>
+    <button (click)="setUserNote()">Set User Note</button>
+  </div>
+
+  </div>
+  </div>
+
+
+  <!-- Edit user Note -->
+  <div class="container">
+    <span class="opblock-summary-path">Edit User Note:</span>
+    <div class="input-container">
+  <div>
+    <label for="id">Note ID:</label>
+    <input type="number" id="id" [(ngModel)]="id">
+  </div>
+  <div>
+    <label for="title">Title:</label>
+    <input type="text" id="edittitle" [(ngModel)]="edittitle">
+  </div>
+  <div>
+    <label for="description">Description:</label>
+    <textarea id="editdescription" [(ngModel)]="editdescription"></textarea>
+  </div>
+  <div>
+    <label for="topicId">Topic ID:</label>
+    <input type="text" id="edittopicId" [(ngModel)]="edittopicId">
+  </div>
+  <div>
+    <label for="studentId">Student ID:</label>
+    <input type="text" id="editstudentId" [(ngModel)]="editstudentId">
+  </div>
+  <div>
+    <button (click)="editUserNote()">Edit User Note</button>
+  </div>
+</div>
+</div>
+   -->

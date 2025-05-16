@@ -1,0 +1,319 @@
+{
+    "questions": [
+    {
+    "question": "What is science?",
+    "questionImage": "",
+    "solution": "Science is the study of nature, where we learn about how things work and why they happen.",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "The study of natural phenomena",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "The study of social sciences",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "The study of language and literature",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "The study of mathematics",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "how much seconds there are in one day?",
+    "questionImage": "",
+    "solution": "1day x 24hours x 60minutes x 60seconds",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": " 84,600",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "86,400",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "86,040",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "85,460",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "What is SI units of Area and Volume?",
+    "questionImage": "",
+    "solution": "",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "square meter and cubic meter",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "cubic meter and cubic meter",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "cubic meter and square meter",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "square meter and square meter",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "Why are thermometer and mass spring system used",
+    "questionImage": "",
+    "solution": "",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "to determine value of mass and volume.",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "to determine value of temperature and mass.",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "to determine value of area and length.",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "to know exact value of time and quantity.",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "Who discovered gravity by observing a falling apple?",
+    "questionImage": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F564x%2F65%2Fea%2F47%2F65ea47d5c820d8d5b86a8779a8173636.jpg&tbnid=M6JKwhfbjOHjWM&vet=12ahUKEwjYoOO82NCEAxWLsWMGHUuDCuQQMygLegQIARBj..i&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F764697211701806188%2F&docid=SxR2AmOIVSQKuM&w=550&h=444&q=Who%20discovered%20gravity%20by%20observing%20a%20falling%20apple%3F&hl=en&authuser=0&ved=2ahUKEwjYoOO82NCEAxWLsWMGHUuDCuQQMygLegQIARBj",
+    "solution": "Isaac Newton discovered gravity by observing a falling apple.",
+    "solutionImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhistory.howstuffworks.com%2Fhistory-vs-myth%2Fisaac-newton-apple.htm&psig=AOvVaw3pPaSs0oKqPJ6E5Kj45T0d&ust=1709300975153000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMDshb3Y0IQDFQAAAAAdAAAAABAE",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "James Watt",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "Albert Einstein",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "Gallieo Gallei",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "Sir Isaac Newton",
+    "isCorrect": true,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "What invention was made after observing the steam from boiling water?",
+    "questionImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.quora.com%2FHow-does-a-boiling-water-reactor-produce-electricity&psig=AOvVaw2ugneKIh_FREdlItnHQ2T_&ust=1709301021532000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOitmdPY0IQDFQAAAAAdAAAAABAE",
+    "solution": "After observing the steam from boiling water, the invention of the steam engine was made.",
+    "solutionImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldhistory.org%2FWatt_Steam_Engine%2F&psig=AOvVaw2ugneKIh_FREdlItnHQ2T_&ust=1709301021532000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOitmdPY0IQDFQAAAAAdAAAAABAK",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "Electric bulb",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "Telephone",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "Steam engine",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "Airplane",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "How to convert 100 gram of mass to its SI unit",
+    "questionImage": "",
+    "solution": "",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "divide the number by 1000",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "multiply by 1000",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "multiply by 100",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "divide by 100",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "You have rectangle of length 5 meter and breadth of 3 meter, what is Area of rectangle?",
+    "questionImage": "",
+    "solution": "multiply length with breadth",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "3.33 sq. meter",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "15 sq. meter",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "16 sq. meter",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "14 sq. meter",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "What is the value of second if we convert two hours?",
+    "questionImage": "",
+    "solution": "one hr = 3600, so 2 x 3600 = 7200",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "3600 seconds",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "7200 seconds",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "7235 seconds",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "6578 seconds",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "what many days are present in leap year?",
+    "questionImage": "",
+    "solution": "one extra day which occurs after 4 year and date is 29th Febrary",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "364 days",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "367 days",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "365 days",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "366 days",
+    "isCorrect": true,
+    "optionImage": ""
+    }
+    ]
+    }
+  ]
+}

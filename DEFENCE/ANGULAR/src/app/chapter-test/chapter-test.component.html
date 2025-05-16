@@ -1,0 +1,11 @@
+<div>
+  <input type="text" [(ngModel)]="studentId" placeholder="Student ID" >
+  <input type="string" [(ngModel)]="correct" placeholder="Number of Correct Answers">
+  <input type="string" [(ngModel)]="incorrect" placeholder="Number of Incorrect Answers">
+  <input type="string" [(ngModel)]="unanswered" placeholder="Number of Unanswered Questions">
+  <input type="string" [(ngModel)]="marksObtained" placeholder="Marks Obtained">
+  <input type="string" [(ngModel)]="totalMark" placeholder="Total Marks">
+  <input type="string" [(ngModel)]="totalQuestion" placeholder="Total Number of Questions">
+
+  <button (click)="postChapterTest()">Post Chapter Test</button>
+</div>

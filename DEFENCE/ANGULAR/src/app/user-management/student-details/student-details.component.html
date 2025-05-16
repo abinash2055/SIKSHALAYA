@@ -1,0 +1,58 @@
+<!-- dashboard.component.html -->
+<div *ngIf="studentData" class="student-details">
+  <h2>Student Details</h2>
+  <div class="details-grid">
+    <div class="detail">
+      <span>Student ID:</span>
+      <span>{{ studentData.id }}</span>
+    </div>
+    <div class="detail">
+      <span>Status:</span>
+      <span [ngClass]="studentData.status ? 'active' : 'inactive'">{{ studentData.status ? 'Active' : 'Inactive' }}</span>
+    </div>
+    <div class="detail">
+      <span>Full Name:</span>
+      <span>{{ studentData.fullName }}</span>
+    </div>
+    <div class="detail">
+      <span>Phone Number:</span>
+      <span>{{ studentData.phoneNumber }}</span>
+    </div>
+    <div class="detail">
+      <span>Phone Number Confirmed:</span>
+      <span [ngClass]="studentData.phoneNumberConfirmed ? 'confirmed' : 'not-confirmed'">{{ studentData.phoneNumberConfirmed ? 'Yes' : 'No' }}</span>
+    </div>
+    <div class="detail">
+      <span>Gender:</span>
+      <span>{{ studentData.gender }}</span>
+    </div>
+    <div class="detail">
+      <span>Email:</span>
+      <span>{{ studentData.email }}</span>
+    </div>
+    <div class="detail">
+      <span>Email Confirmed:</span>
+      <span [ngClass]="studentData.emailConfirmed ? 'confirmed' : 'not-confirmed'">{{ studentData.emailConfirmed ? 'Yes' : 'No' }}</span>
+    </div>
+    <div class="detail">
+      <span>Date of Birth:</span>
+      <span>{{ studentData.dateOfBirth | date }}</span>
+    </div>
+    <div class="detail">
+      <span>Address:</span>
+      <span>{{ studentData.address || 'N/A' }}</span>
+    </div>
+    <div class="detail">
+      <span>College:</span>
+      <span>{{ studentData.college?.name }}</span>
+    </div>
+    <div class="detail">
+      <span>Grade:</span>
+      <span>{{ studentData.subCourse?.name }}</span>
+    </div>
+    <div class="detail">
+      <span>Level:</span>
+      <span>{{ studentData.subCourse?.course.name }}</span>
+    </div>
+  </div>
+</div>

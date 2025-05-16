@@ -1,0 +1,319 @@
+{
+    "questions": [
+    {
+    "question": "भारद्वाज मुनिले कुन नदीको किनारमा आश्रम बसाएका थिए?",
+    "questionImage": "",
+    "solution": " यवक्रीतले गङ्गास्नान गर्न जान्दा उनले गङ्गास्नान गर्न जाँदा गङ्गाको किनारमा बुढा मानिसले बालुवा उठाउँदै गङ्गा पार गरिरहेका थिए।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "कोसीको",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "गङ्गाको",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": " त्रिशूलीको",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "राप्तीको",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "रैभ्यमुनि कुन आश्रमका नजिक बसेका थिए?",
+    "questionImage": "",
+    "solution": "भारद्वाज मुनिले गङ्गाको किनारमा बसेका थिए र उनका आश्रम रैभ्यमुनि आश्रम नजिकनजिक थिए।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "बलरामको",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "नारायणको",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "भारद्वाजको",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "गौतमको",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "यवक्रीतको पिता कुन थिए?",
+    "questionImage": "",
+    "solution": "यवक्रीतका छोरा परावसु पनि त्यत्तिकै नामुद विद्वान् भएर निस्केका थिए जसको आश्रम रैभ्यमुनि आश्रम नजिकनजिक थिए।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": " बलराम",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": " भारद्वाज",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": " रैभ्यमुनि",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "भिष्णु",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "रैभ्यमुनिको कति छोरा थिए?",
+    "questionImage": "",
+    "solution": "विद्वान्हरूको आश्रममा गएपछि ज्ञान लिने मानिसहरूले अक्सर त्यहाँ आउँथ्यो।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "दुई",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "चार",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "एक",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "पाँच",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "यवक्रीतले कहिले कुमार इन्द्रकहाँ पुगे",
+    "questionImage": "",
+    "solution": "बुढा मानिसले फ्याँकेर बालुवा उठाउँदै गङ्गामा फ्याँकेर गङ्गा पार गर्ने काम: यवक्रीतले ",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "आवासीय स्थलको",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "सार्वजनिक स्थलको",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "ताराको देखीबारे",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "बुढा मानिसले फ्याँकेर बालुवा उठाउँदै गङ्गामा फ्याँकेर गङ्गा पार गर्ने काम",
+    "isCorrect": true,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "यवक्रीतले कहिले कुमार इन्द्रकहाँ पुगे?",
+    "questionImage": "",
+    "solution": "यवक्रीतले गङ्गास्नान गर्न जान्दा उनले गङ्गा पार गर्ने कामलाई हेरेका थिए।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": " रातदिन",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "गङ्गास्नान गर्न जाँदा",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": " साँझ",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": " बेलामा",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "इन्द्रले के गरे कुमार यवक्रीतलाई नियम गर्न लाग्दा?",
+    "questionImage": "",
+    "solution": "आफूले पढ्ने विद्यालय जाने आदेश दिए: यवक्रीतले देवराज इन्द्रका ढोकामा अनशन बसेर विद्वान् हुनका आशा गरेका थिए।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "आफूले पढ्ने विद्यालय जाने आदेश दिए",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "विद्वान् हुने लक्ष्य अगाडि राखे",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "बिहानै उठेर स्नान गर्न बाध्य गरे",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "अनशन बसेर आश्रममा रहन बाध्य गरे",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "कुमार यवक्रीतले अब कस्तो उपाय गर्न थाले जो भिन्न थिए?",
+    "questionImage": "",
+    "solution": " बुढा मानिसले यवक्रीतलाई आदर गर्ने संस्कृति बोकेका थिए।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "आश्रममा बसेर पढ्ने नियम लागु गर्ने",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": " विद्यालय जाने लक्ष्य लिएर पढ्ने निर्णय गर्ने",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "नदीको पुल निर्माण गर्ने निर्णय लिएको",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "बुढा मानिसलाई आदर गर्ने औपचारिकता भएको थियो",
+    "isCorrect": true,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "बुढा मान्छेले यवक्रीतलाई के बनाउन सुझायो?",
+    "questionImage": "",
+    "solution": "यवक्रीतले बुढा मानिसको उपदेशलाई सुनेर गङ्गामा पुल बनाउने निर्णय लिए।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "एक बालुवा नदी",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "एक पठाउने प्रेमी",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "एक भव्य पुल",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "एक आदर्श साथी",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "बुढा मान्छेले के सोचे जसले यवक्रीतलाई प्रेरित गर्न सक्यो?",
+    "questionImage": "",
+    "solution": "ज्ञान र साहसको बिरुद्ध विद्यालय जाने ठाउँमा पुल बनाउने कुरा: यवक्रीतले पुल बनाउने काम गर्ने साहस र ज्ञानको आवश्यकता भएको थियो।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "ज्ञान र साहसको बिरुद्ध विद्यालय जाने ठाउँमा पुल बनाउने कुरा",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "धन र राजनीतिक क्षमतामा",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "राजकीय अधिकारमा",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "प्रेम र समर्थनमा",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    }
+  ]
+}

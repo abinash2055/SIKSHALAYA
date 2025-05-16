@@ -1,0 +1,53 @@
+.container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .opblock-summary-path {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+  text-align: center;
+  margin-top: 20px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+   
+
+    button, a {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+      text-align: center;
+      margin-top: 80px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+
+      &:hover {
+        color: #0056b3;
+      }
+    }
+  }
+}

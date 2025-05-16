@@ -1,0 +1,142 @@
+
+<div class="container">
+  <h5><b>Education Level List</b></h5>
+  <div class="input-container">
+<table>
+<thead>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Status</th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let course of courses">
+    <td>{{ course.id }}</td>
+    <td>{{ course.name }}</td>
+    <td>{{ course.status }}</td>
+  </tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+
+<div class="container">
+  <span class="opblock-summary-path">Create Level</span>
+  <div class="input-container">
+    <input type="text" [(ngModel)]="courseName" placeholder="Enter Level name">
+    <button (click)="setCourse()">Set Level</button>
+  </div>
+
+  
+ 
+
+<div class="container">
+  <span class="opblock-summary-path">Toogle Level Status</span>
+  <div class="input-container">
+    <input type="text" [(ngModel)]="toogleCourseId" placeholder="Enter Level Id">
+    <button (click)="toogleCourse()">Set Status </button>
+  </div>
+  </div>
+
+  <div class="container">
+  <span class="opblock-summary-path">Edit Level Name</span>
+  <div class="input-container">
+    <input type="text" [(ngModel)]="editCourseName" placeholder="Enter Level name">
+    <input type="text" [(ngModel)]="editcourseId" placeholder="Enter Level ID">
+    <button (click)="editCourse()">Submit</button>
+  </div>
+  </div>
+
+  <div class="container">
+    <span class="opblock-summary-path">Delete Level</span>
+    <div class="input-container">
+    <input type="text" [(ngModel)]="deletecourseId" placeholder="Enter Level ID">
+    <button (click)="deleteCourse()">Submit</button>
+  </div>
+</div>
+  </div>
+
+
+  <!-- For subcourse code -->
+  <div class="container">
+    <span class="opblock-summary-path">Create Grade</span>
+    <div class="input-container">
+    <input type="text" [(ngModel)]="subCourseName" placeholder="Enter Educational Level">
+    <input type="text" [(ngModel)]="courseId" placeholder="Enter Level ID">
+    <button (click)="setSubCourse()">Set Grade</button>
+  </div>
+
+
+  <div class="container">
+    <span class="opblock-summary-path">Toogle Grade Status</span>
+    <div class="input-container">
+      <input type="text" [(ngModel)]="toogleSubCourseId" placeholder="Enter GradeId">
+      <button (click)="toogleSubCourse()">Set Grade </button>
+    </div>
+    </div>
+
+    <div class="container">
+      <span class="opblock-summary-path">Edit Grade Name</span>
+      <div class="input-container">
+      <input type="text" [(ngModel)]="editsubCourseName" placeholder="Enter Grade name">
+      <input type="text" [(ngModel)]="editsubCourseId" placeholder="Enter GradeId">
+      <button (click)="editSubCourseName()">Submit</button>
+    </div></div>
+
+
+    <div class="container">
+      <span class="opblock-summary-path">Delete Grade</span>
+      <div class="input-container">
+      <input type="text" [(ngModel)]="deletesubcourseId" placeholder="Enter GradeId">
+      <button (click)="deleteSubCourse()">Submit</button>
+    </div>
+    </div>
+
+    <div class="container">
+      <span class="opblock-summary-path">Add Subject</span>
+      <div class="input-container">
+      <input type="text" [(ngModel)]="addsubCourseid" placeholder="Enter GradeId">
+      <input type="text" [(ngModel)]="addsubjectId" placeholder="Enter Subject ID">
+      <button (click)="addSubject()">Add</button>
+    </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="container">
+    <span class="opblock-summary-path">Fetch Grade</span>
+    <div class="input-container">
+      <input type="text" [(ngModel)]="courseName" placeholder="Enter Level Id">
+      <input type="text" [(ngModel)]="courseName" placeholder="Enter Grade">
+      <button (click)="setCourse()">Get</button>
+    </div>
+  
+  <div class="container">
+    <h5><b>Grade List</b></h5>
+    <div class="input-container">
+  <table>
+  <thead>
+    <tr>
+      <th>Sub ID</th>
+      <th>Education Level</th>
+      <th>Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let subcourse of Subcourses">
+      <td>{{ subcourse.id }}</td>
+      <td>{{ subcourse.course.name }}</td>
+      <td>{{ subcourse.name }}</td>
+    </tr>
+  </tbody>
+  </table>
+  </div>
+  </div>
+  
+  

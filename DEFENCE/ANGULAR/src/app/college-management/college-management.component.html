@@ -1,0 +1,77 @@
+
+<div class="container">
+  <span class="opblock-summary-path">Fetch College List:</span>
+  <div class="input-container">
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Mobile</th>
+      <th>Email</th>
+      <th>Address</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let college of colleges">
+      <td>{{ college.collegeId }}</td>
+      <td>{{ college.name }}</td>
+      <td>{{ college.mobile }}</td>
+      <td>{{ college.email }}</td>
+      <td>{{ college.address }}</td>
+      <td>{{ college.locationUrl }}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div class="container">
+    <span class="opblock-summary-path">Set College</span>
+    <div class="input-container">
+      <input type="text" [(ngModel)]="collegeName" placeholder="Enter college name">
+      <input type="text" [(ngModel)]="collegeMobile" placeholder="Enter college mobile number">
+      <input type="text" [(ngModel)]="collegeEmail" placeholder="Enter college email">
+      <input type="text" [(ngModel)]="collegetelephone" placeholder="Enter college telephone">
+      <input type="text" [(ngModel)]="collegeaddress" placeholder="Enter college address">
+      <input type="text" [(ngModel)]="collegelocationUrl" placeholder="Enter college locationUrl">
+      <input type="text" [(ngModel)]="collegewebsiteUrl" placeholder="Enter college websiteUrl">
+      <input type="text" [(ngModel)]="collegeiconUrl" placeholder="Enter college iconUrl">
+      <input type="text" [(ngModel)]="collegethumbnailUrl" placeholder="Enter college thumbnailUrl">
+      <input type="text" [(ngModel)]="collegedescription" placeholder="Enter college description">
+      <button (click)="setCollege()">Submit</button>
+    </div>
+  
+
+   
+<div class="container">
+  <span class="opblock-summary-path">Update College</span>
+  <div class="input-container">
+    <input type="number"[(ngModel)]="collegeId" placeholder="College ID">
+    <input type="text" [(ngModel)]="name" placeholder="Name">
+    <input type="text" [(ngModel)]="mobile" placeholder="Mobile">
+    <input type="text" [(ngModel)]="email" placeholder="Email">
+    <input type="text" [(ngModel)]="telephone" placeholder="Telephone">
+    <input type="text" [(ngModel)]="address" placeholder="Address">
+    <input type="text" [(ngModel)]="locationUrl" placeholder="Location URL">
+    <input type="text" [(ngModel)]="websiteUrl" placeholder="Website URL">
+    <input type="text" [(ngModel)]="iconUrl" placeholder="Icon URL">
+    <input type="text" [(ngModel)]="thumbnailUrl" placeholder="Thumbnail URL">
+    <input type="text" [(ngModel)]="description" placeholder="Description">
+  
+    <button (click)="editCollege()">Update College</button>
+  </div>
+  
+
+  
+  <div class="container">
+    <span class="opblock-summary-path">Toogle College Status</span>
+    <div class="input-container">
+      <input type="text" [(ngModel)]="collegeId" placeholder="Enter collegeId">
+      <button (click)="toogleCollege()">Set Status </button>
+    </div>
+    </div>

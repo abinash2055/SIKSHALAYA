@@ -1,0 +1,35 @@
+
+    <span class="opblock-summary-path">Search Student</span>
+    <div class="input-container">
+<input type="text" id="searchStudent" [(ngModel)]="searchStudent" placeholder="Enter Student Name">
+<button (click)="fetchStudent()">Fetch Student</button>
+</div>
+
+<table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>College Name</th>
+        <th>SubCourse Name</th>
+      
+      </tr>
+    </thead>
+    <tbody *ngFor="let student of students">
+      <tr >
+        <td>{{ student.id }}</td>
+       
+        <td>  <a routerLink="/getuser/studentDetails/{{student.id}}">{{ student.fullName }} </a><router-outlet></router-outlet> </td>
+        
+       
+        <td>{{ student.phoneNumber }}</td>
+        <td>{{ student.email }}</td>
+        <td>{{ student.college.name }}</td>
+        <td>{{ student.subCourse?.name }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <app-student-details></app-student-details>

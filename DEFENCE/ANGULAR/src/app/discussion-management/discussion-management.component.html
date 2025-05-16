@@ -1,0 +1,54 @@
+<div class="container">
+<h5>Fetch Discussion</h5>
+<div class="input-container">
+<input type="text" [(ngModel)]="fetchcollegeId" placeholder="College ID">
+<input type="text" [(ngModel)]="fetchtopicId" placeholder="Topic ID">
+<input type="text" [(ngModel)]="pageId" placeholder="Page">
+
+<button (click)="fetchDiscussions(fetchcollegeId, fetchtopicId, pageId)">Fetch Discussions</button>
+</div>
+
+
+
+<h5>Discussion Table</h5>
+<table>
+  <thead>
+    <tr>
+      <th>Discussion Id </th>
+      <th>Student Name </th>
+      <th>Discussion</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let discussion of discussions">
+      <td>{{ discussion.id }}</td>
+      <td>{{ discussion.student.fullName }}</td>
+      <td>{{ discussion.discussion }}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+</div>
+<!-- <h3>Fetch Query</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Query Id </th>
+      <th>Student Name </th>
+      <th>Discussion</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let discussion of discussions">
+      <td>{{ query.id }}</td>
+      <td>{{ discussion.student.fullName }}</td>
+      <td>{{ discussion.discussion }}</td>
+    </tr>
+  </tbody>
+</table> -->

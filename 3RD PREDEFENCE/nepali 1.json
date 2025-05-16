@@ -1,0 +1,319 @@
+{
+    "questions": [
+    {
+    "question": "गाउँले कसलाई पुकार्छ?",
+    "questionImage": "",
+    "solution": "गाउँमा देश सिङ्गो सामान्यतया पुकारिन्छ किनकि देश सिङ्गोले गाउँका निवासीहरूको आवाज सुनेर उनीहरूलाई धेरै प्रभावित गर्दछ।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "चन्द्रसूर्यलाई",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "देश सिङ्गोलाई",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "मालालाई",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "हिमाललाई",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "कसले संस्कार बाँचेपछि देश बाँच्छ?",
+    "questionImage": "",
+    "solution": "संस्कारको बाँच्ने बादल देशको बाँच्ने मुख्य कारण हो किनकि संस्कारले मानव जीवनको धेरै पहलुहरूमा सहयोग पुर्याउँछ।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "माला",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "गाउँ",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "श्रम",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "मनुष्य",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "देशसँगको सम्बन्ध कसले उच्चारण गर्छ?",
+    "questionImage": "",
+    "solution": "हिमाल उच्च स्थानमा रहेको र देशको अवस्थानलाई प्रतिनिधित्व गर्दछ।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "पहाड",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "तराई",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "हिमाल",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "मधेस",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "मानवको अन्ग कुन हो?",
+    "questionImage": "",
+    "solution": "घले मानवको एक प्रमुख अंग हो जसले उनलाई विभिन्न कार्यहरू गर्नमा मद्दत पुर्याउँछ।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "बक्खु",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "देउडा",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "घले",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "गौरा",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "नेपालको खुलोस् कुन देउडामा छ?",
+    "questionImage": "",
+    "solution": "सुन्दर नेपालको एक खास विशेषता हो जसले तपाईंलाई आकर्षित गर्ने खूबसूरत पर्यावरणलाई प्रतिनिधित्व गर्दछ।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "गौरा",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "सुन्दर",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "गाउँ",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "माला",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "कसले मालालाई फूललाई सिँगार्न आउँछ?",
+    "questionImage": "",
+    "solution": "देश सिङ्गो तपाईंको सुन्दरता र संस्कृतिक विविधतालाई प्रतिनिधित्व गर्दछ र माला तपाईंलाई भव्य लाग्दछ।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "positiveMark": 5,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "देश सिङ्गो",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "चन्द्रसूर्य",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "मनुष्य",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "पुकार्छ",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "कसको अति उच्च माथ हो?",
+    "questionImage": "",
+    "solution": " हिमाल नेपालको अति उच्च स्थानमा रहेको र यो देशको संरचनालाई प्रतिनिधित्व गर्दछ।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "चन्द्रसूर्यको",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "मालाको",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "गाउँको",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "हिमालको",
+    "isCorrect": true,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "कसले श्रमले मलाई सिँगार्न आउँछ?",
+    "questionImage": "",
+    "solution": "माला नेपालको समृद्ध इतिहास र संस्कृतिक समृद्धतालाई प्रतिनिधित्व गर्दछ र सिँगारनका लागि प्रयोग हुन्छ।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "देश सिङ्गो",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "माला",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "चन्द्रसूर्य",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "हिमाल",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "नेपाल कुन नदीमा हाँसोस्?",
+    "questionImage": "",
+    "solution": "सिङ्गो नेपालको मुख्य नदी हो जसले नेपालको प्राकृतिक संसाधनहरूको प्रतिनिधित्व गर्दछ।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "मालामा",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "गाउँमा",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "सिङ्गोमा",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "मिथिलामा",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    },
+
+    {
+    "question": "कसले सारी तनमा सजाउँछ?",
+    "questionImage": "",
+    "solution": "देश सिङ्गो नेपालको गरिमामा सजिएको र देशको अभिवृद्धि र विकासमा महत्वपूर्ण भूमिका खेल्दछ।",
+    "solutionImage": "",
+    "negativeMark": 1,
+    "chapterTestId": 1,
+    "options": [
+    {
+    "option": "देश सिङ्गो",
+    "isCorrect": true,
+    "optionImage": ""
+    },
+    {
+    "option": "माला",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "चन्द्रसूर्य",
+    "isCorrect": false,
+    "optionImage": ""
+    },
+    {
+    "option": "चन्द्रसूर्य",
+    "isCorrect": false,
+    "optionImage": ""
+    }
+    ]
+    }
+  ]
+}

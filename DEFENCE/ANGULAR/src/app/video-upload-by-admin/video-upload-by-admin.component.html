@@ -1,0 +1,55 @@
+
+<div class="container">
+    <span class="opblock-summary-path">Upload Video</span>
+    <div class="input-container">
+    <label for="title">Video Title:</label>
+    <input type="text" id="title" [(ngModel)]="title">
+  
+  <div>
+    <label for="vdoCipherId">VdoCipher ID:</label>
+    <input type="text" id="vdoCipherId" [(ngModel)]="vdoCipherId">
+  </div>
+  <div>
+    <label for="description">Description:</label>
+    <textarea id="description" [(ngModel)]="description"></textarea>
+  </div>
+  <div>
+    <label for="totalVideoDuration">Total Video Duration:</label>
+    <input type="number" id="totalVideoDuration" [(ngModel)]="totalVideoDuration">
+  </div>
+  <div>
+    <label for="topicId">Topic ID:</label>
+    <input type="number" id="topicId" [(ngModel)]="topicId">
+  </div>
+  <div>
+    <button (click)="setVideo()">Set Video</button>
+  </div>
+  </div>
+  </div>
+  
+
+  <div class="fetch-videos">
+    <label for="topicId">Topic ID:</label>
+    <input type="text" id="topicId" [(ngModel)]="fetchVideoTopicId">
+    <button (click)="fetchVideos()">Fetch Videos</button>
+  </div>
+  
+  <table class="video-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Video Title</th>
+        <th>VdoCipher ID</th>
+        <th>Video Length</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let video of videos">
+        <td>{{ video.id }}</td>
+        <td>{{ video.title }}</td>
+        <td>{{ video.vdoCipherId }}</td>
+        <td>{{ video.totalVideoDuration }}</td>
+      </tr>
+    </tbody>
+  </table>
+  

@@ -1,0 +1,10 @@
+<div class="container">
+  <span class="opblock-summary-path">Set Quotes</span>
+  <div class="input-container">
+    <input type="text" [(ngModel)]="title" placeholder="Title">
+    <textarea [(ngModel)]="description" placeholder="Description"></textarea>
+    <input type="datetime-local" [(ngModel)]="startDate" placeholder="Start Date">
+    <input type="datetime-local" [(ngModel)]="endDate" placeholder="End Date">
+    <button (click)="setQuote()">Set Quote</button>
+  </div>
+  

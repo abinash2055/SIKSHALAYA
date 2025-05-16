@@ -1,0 +1,35 @@
+
+<div class="register-container">
+  <div class="register-card">
+    <h2>Registration</h2>
+      <div class="form-group">
+        <label for="collegeId">College ID:</label>
+        <input type="text" id="collegeId" [(ngModel)]="collegeId" placeholder="Enter College ID">
+      </div>
+      <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" [(ngModel)]="fullName" placeholder="Enter Full Name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" [(ngModel)]="email" placeholder="Enter Email">
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" [(ngModel)]="password" placeholder="Enter Password">
+      </div>
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" [(ngModel)]="phoneNumber" placeholder="Enter Phone Number">
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" [(ngModel)]="gender" placeholder="Enter Gender">
+      </div>
+      <div class="form-group">
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" [(ngModel)]="dateOfBirth" id="dateOfBirth">
+      </div>
+      <button type="submit" class="btn-primary" (click)="registerAdmin()" >Register</button>
+  </div>
+</div>

@@ -1,0 +1,108 @@
+
+
+
+<div class="container1">
+    <span class="opblock-summary-path">Set Note</span>
+    <div class="input-container">
+    <input type="text" [(ngModel)]="name" placeholder="Name">
+    <input type="text" [(ngModel)]="description" placeholder="Description">
+    <input type="text" [(ngModel)]="topicId" placeholder="Topic ID">
+    <input type="file" (change)="onFileChange($event)">
+    <input type="text" [(ngModel)]="fileNameByDeveloper" placeholder="File Name By Uploader">
+  
+    <button (click)="setNote()">Set Note</button>
+  </div>
+  </div>
+
+  <div class="container">
+    <span class="opblock-summary-path">Delete Note</span>
+    <div class="input-container">
+    <input type="text" [(ngModel)]="noteId" placeholder="Note ID to delete">
+    <button (click)="deleteNote()">Delete Note</button>
+  </div>
+  </div>
+
+  
+  <div class="container">
+    <span class="opblock-summary-path">Toggle Note</span>
+    <div class="input-container">
+    <input type="text" [(ngModel)]="TogglenoteId" placeholder="Note ID to Toggle">
+    <button (click)="toggleNote()">Submit</button>
+  </div>
+  </div>
+  
+   
+  <!-- <div class="container">
+    <span class="opblock-summary-path">Fetch NotesPDF</span>
+    <div class="input-container">
+    <input type="string" [(ngModel)]="fetchfileName" placeholder="Enter File Name.">
+  
+    <button (click)="fetchNotespdf()">Fetch NotePDF</button>
+
+</div></div>
+<div class="container">
+  <span class="opblock-summary-path">Fetch NotesPDF List:</span>
+  <div class="input-container">
+   
+<table>
+<thead>
+<tr>
+  <th>ID</th>
+  <th>Note Name</th>
+  <th>Topic Id</th>
+  <th>Topic Name</th>
+  <th>File Name</th>
+  
+ 
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let note of Notes">
+  <td>{{ note.id }}</td>
+  <td>{{ note.name }}</td>
+  <td>{{ note.topic.id }}</td>
+  <td>{{ note.topic.name }}</td>
+  <td>{{ note.fileName }}</td>
+
+    </tr>
+</tbody>
+</table> 
+</div></div>-->
+  <div class="container">
+    <span class="opblock-summary-path">Fetch Notes</span>
+    <div class="input-container">
+    <input type="number" [(ngModel)]="fetchtopicId" placeholder="Enter TopicId">
+    <input type="string" [(ngModel)]="fetchNoteName" placeholder="Enter Note Name">
+    <input type="number" [(ngModel)]="fetchpage" placeholder="Enter Page.">
+  
+    <button (click)="fetchNotes()">Fetch Note</button>
+
+</div></div>
+<div class="container">
+  <span class="opblock-summary-path">Fetch Notes List:</span>
+  <div class="input-container">
+   
+<table>
+<thead>
+<tr>
+  <th>ID</th>
+  <th>Note Name</th>
+  <th>Topic Id</th>
+  <th>Topic Name</th>
+  <th>File Name</th>
+  
+ 
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let note of Notes">
+  <td>{{ note.id }}</td>
+  <td>{{ note.name }}</td>
+  <td>{{ note.topic.id }}</td>
+  <td>{{ note.topic.name }}</td>
+  <td>{{ note.fileName }}</td>
+
+    </tr>
+</tbody>
+</table>
+</div></div>

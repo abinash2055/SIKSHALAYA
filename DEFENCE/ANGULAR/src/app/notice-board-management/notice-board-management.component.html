@@ -1,0 +1,13 @@
+<div class="container">
+    <span class="opblock-summary-path">Upload Notice</span>
+    <div class="input-container">
+    
+    <textarea [(ngModel)]="notice" placeholder="Notice" class="textareainput"></textarea>
+    <input type="text" [(ngModel)]="title" placeholder="Title" class="titlearea">
+  <input type="text" [(ngModel)]="collegeId" placeholder="College ID" class="college">
+  <input type="text" [(ngModel)]="fileNameByDeveloper" placeholder="File Name By Developer" class="Developer">
+    <input type="file" (change)="onFileChange($event)">
+   
+   
+  </div>
+  <button (click)="setNoticeBoard()">Set Notice</button>

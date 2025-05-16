@@ -1,0 +1,105 @@
+<div class="container">
+    <span class="opblock-summary-path">Set Topic</span>
+    <div class="input-container">
+    <label for="subjectId">Subject ID:</label>
+    <input type="text" id="subjectId" [(ngModel)]="subjectId">
+    <label for="name">Topic Name:</label>
+    <input type="text" id="name" [(ngModel)]="name">
+    <button (click)="setTopic()">Set Topic</button>
+  </div>
+  </div>
+
+<div class="container">
+    <span class="opblock-summary-path">Edit Topic Name</span>
+    <div class="input-container">
+    <label for="subjectId">Subject Id:</label>
+    <input type="text" id="subjectId" [(ngModel)]="editsubjectId">
+    <label for="topicId">Topic Id:</label>
+    <input type="text" id="topicId" [(ngModel)]="editTopicid">
+    <label for="name">Topic Name:</label>
+    <input type="text" id="editname" [(ngModel)]="editname">
+    <button (click)="editopicName()">Submit</button>
+  </div>
+  </div>
+
+
+    
+  <div class="container">
+    <span class="opblock-summary-path">Delete Topic</span>
+    <div class="input-container">
+    <label for="subjectId">Topic ID:</label>
+    <input type="text" id="deleteTopicid" [(ngModel)]="deleteTopicid">
+    <button (click)="deletetopic()">Delete Topic</button>
+  </div>
+  </div>
+
+
+  
+
+  <div class="container">
+    <span class="opblock-summary-path">Topics:</span>
+    <div class="input-container">
+    
+  
+  <input type="text" id="fetchcourseId" [(ngModel)]="fetchcourseId" placeholder="CourseId">
+  <input type="text" id="fetchsubcourseId" [(ngModel)]="fetchsubcourseId" placeholder="SubCourseId">
+  <input type="text" id="fetchsubjectId" [(ngModel)]="fetchsubjectId" placeholder="SubjectId">
+  <input type="text" id="fetchtopicName" [(ngModel)]="fetchtopicName" placeholder="Topic Name">
+    <button (click)="getTopicManual()">Fetch Topic</button>
+  
+    <div class="container">
+      <span class="opblock-summary-path">Fetch Topic Lists</span>
+      <div class="input-container">
+      
+<table>
+<thead>
+  <tr>
+    <th>ID</th>
+    <th>Topic Name</th>
+    <th>Subject Name</th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let topic of Topics">
+    <td>{{ topic.id }}</td>
+    <td>{{ topic.name }}</td>
+    <td>{{ topic.subject.name }}</td>
+  </tr>
+</tbody>
+</table>
+</div>
+    </div>
+</div>
+
+
+
+
+
+
+  <div class="container">
+    <span class="opblock-summary-path">Chapters</span>
+    <div class="input-container">
+  <input type="text" id="fetchsubjectId" [(ngModel)]="fetchchaptersubjectId" placeholder="SubjectId">
+    <button (click)="getChapterManual()">Fetch Chapter</button>
+  
+    <div class="container">
+      <span class="opblock-summary-path">Fetch Chapter Lists</span>
+      <div class="input-container">
+      
+<table>
+<thead>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let chapter of Chapters">
+    <td>{{ chapter.id }}</td>
+    <td>{{ chapter.name }}</td>
+  </tr>
+</tbody>
+</table>
+</div>
+    </div>
+</div>

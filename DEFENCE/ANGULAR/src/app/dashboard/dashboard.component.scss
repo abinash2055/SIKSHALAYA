@@ -1,0 +1,47 @@
+.dashboard {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.management-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.section {
+  background-color: #f4f3f3;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+}
+
+.section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  color: #666;
+}
+
+.section p::before {
+  content: "-";
+  margin-right: 5px;
+}
+
+.section p:not(:last-child) {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,51 @@
+/* dashboard.component.scss */
+.student-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+    .detail {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+
+      span:first-child {
+        font-weight: bold;
+        width: 150px;
+      }
+
+      span:last-child {
+        width: calc(100% - 150px);
+      }
+
+      &.active {
+        color: green;
+      }
+
+      &.inactive {
+        color: red;
+      }
+
+      &.confirmed {
+        color: green;
+      }
+
+      &.not-confirmed {
+        color: red;
+      }
+    }
+  }
+}

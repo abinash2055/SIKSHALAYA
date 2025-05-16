@@ -1,0 +1,31 @@
+<div class="container">
+  <span class="opblock-summary-path">Edit Student</span>
+  <div class="input-container">
+<div>
+    <label for="studentId">Student ID:</label>
+    <input type="text" id="studentId" [(ngModel)]="studentId">
+  </div>
+  <div>
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" [(ngModel)]="fullName">
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" [(ngModel)]="email">
+  </div>
+  <div>
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" [(ngModel)]="phoneNumber">
+  </div>
+  <div>
+    <label for="gender">Gender:</label>
+    <input type="text" id="gender" [(ngModel)]="gender">
+  </div>
+  <div>
+    <label for="dateOfBirth">Date of Birth:</label>
+    <input type="date" id="dateOfBirth" [(ngModel)]="dateOfBirth">
+  </div>
+  <div>
+    <button (click)="editStudent()">Edit Student</button>
+  </div>
+  
